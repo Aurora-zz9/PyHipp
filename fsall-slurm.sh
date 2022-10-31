@@ -19,5 +19,5 @@ lfall.save(); \
 hfall = DPT.objects.processDirs(dirs=None, exclude=['*eye*', '*mountains*'], objtype=pyh.FreqSpectrum, loadHighPass=True, pointsPerWindow=3000, saveLevel=1); \
 hfall.save();"
 
-aws sns publish --topic-arn arn:aws:sns:ap-southeast-1:104629961782:awsnotify --message "FSJobDone"
+aws sns publish --topic-arn arn:aws:sns:ap-southeast-1:090058823783:awsnotify --message "FSJobDone"
 
